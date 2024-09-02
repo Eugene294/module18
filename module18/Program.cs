@@ -20,6 +20,7 @@ namespace module18
             CommandDownload commandDownload = new CommandDownload(receiver);
             sender.SetCommand(commandDownload);
             sender.Run(s, client);
+            Console.ReadKey();
 
         }
     }
